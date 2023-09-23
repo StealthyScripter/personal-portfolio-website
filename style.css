@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: aquamarine;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 425px) {
+    ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
