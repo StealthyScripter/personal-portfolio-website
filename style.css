@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(assets/stacked-waves-haikei.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1440px;
 }
 
 ul {
@@ -8,13 +18,28 @@ ul {
     justify-content: space-evenly;
     align-items: center;
     list-style-type: none;
-    background-color: aquamarine;
     height: 40px;
 }
 
 a {
     text-decoration: none;
     cursor: pointer;
+    color: white;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #191825;
+    text-decoration: overline;
+    text-decoration-thickness: 5px;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: #191825;
 }
 
 main {
@@ -28,6 +53,9 @@ img {
     width: 350px;
 }
 
+.text {
+    width: 25%;
+}
 @media (max-width: 425px) {
     ul {
         flex-direction: column;
@@ -37,5 +65,10 @@ img {
 
     main {
         flex-direction: column;
+    }
+
+    .text {
+        width: 95%;
+        text-align: center;
     }
 }
