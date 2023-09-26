@@ -9,8 +9,6 @@
 body {
     background-image: url(assets/waves-3.svg);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
 }
 
 ul {
@@ -19,6 +17,7 @@ ul {
     align-items: center;
     list-style-type: none;
     height: 40px;
+    min-width: 100vw;
 }
 
 a {
@@ -58,6 +57,7 @@ img {
 }
 @media (max-width: 425px) {
     ul {
+        margin-top: 10px;
         flex-direction: column;
         gap: 20px;
         height: unset;
