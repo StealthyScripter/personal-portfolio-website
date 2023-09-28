@@ -66,6 +66,7 @@ img {
         flex-direction: column;
         gap: 20px;
         height: unset;
+        display: none;
     }
 
     main {
